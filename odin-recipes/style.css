@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-image: url(https://wallpaperaccess.com/full/3691432.jpg);
+    background-size: 100vh;
+}
+.container{
+    border: 2px white solid;
+    border-bottom: 50;
+    height: 100vh;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.heading{
+    display: inline;
+    text-align: center;
+    color:rgba(45, 156, 23, 0.9);
+}
+.container img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: -20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{text-decoration:underline;}
+.content{
+display: block;
+margin: 0 auto;
+}
+.lasagna, .chineseporkdumpling{
+    position: relative;
+}
+.lasagna, .chineseporkdumpling figcaption{
+    text-align: center;
+ }
