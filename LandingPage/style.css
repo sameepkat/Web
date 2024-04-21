@@ -1,0 +1,170 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+}
+
+.signup {
+    display: flex;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.main {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+.right-links {
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    display: flex;
+    padding: 20px 300px;
+    align-items: center;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.desc {
+    display: flex;
+    gap: 70px;
+    color: white;
+    background-color: #1f2937;
+    padding: 100px 300px;
+    justify-content: space-between;
+}
+
+.desc-cont {
+    flex-wrap: wrap;
+    width: 70vh;
+}
+
+.desc-cont h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.desc-cont p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.desc-image {
+    display: flex;
+    align-items: center;
+}
+
+.desc-image img {
+    width: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    width: 100px;
+}
+.desc-cont button{
+    border: none;
+    padding: 8px;
+}
+.signup button{
+        border: 2px white solid;  
+        padding: 6px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+        padding: 100px 300px;
+
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.i {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rand h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: -50px;
+}
+.Quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.Quote p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.Quote span {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+}
+.whiteback{
+    padding: 70px 200px;
+}
+.prefooter {
+    display: flex;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+
+}
+
+.cat-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
