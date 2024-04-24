@@ -16,3 +16,13 @@
 4. i2: Photo by Vadim B: https://www.pexels.com/photo/grey-fur-kitten-127028/
 5. i3: Photo by Pixabay: https://www.pexels.com/photo/gray-cat-33537/
 6. i4: Photo by Pixabay: https://www.pexels.com/photo/brown-and-black-tabby-cat-on-cat-cave-271611/ 
+
+# 3. Calculator
+![Calculator](Screenshots/Calculator.png)
+
+[Preview](https://htmlpreview.github.io/?https://github.com/sameepkat/Web/blob/main/Calculator/index.html)
+
+Note: Keyboard keys don't work for now.
+
+## Reference
+[Youtube](https://youtu.be/I5kj-YsmWjM)
