@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span id="playerScore">Player: 0</span>
+      <span id="computerScore">Computer: 0</span>
+      <span id="round">Round: 1</span>
+    </header>
+    <div class="player"><span id="playerTxt"></span></div>
+    <div class="container">
+      <div class="tint">
+        <h3 id="display">Choose one!</h3>
+        <div>
+          <button onclick="getHumanChoice(this.textContent)" id="rock">Rock</button>
+          <button onclick="getHumanChoice(this.textContent)" id="paper">Paper</button>
+          <button onclick="getHumanChoice(this.textContent)" id="scissor">Scissors</button>
+        </div>
+      </div>
+    </div>
+    <div class="computer"><span id="computerTxt"></span></div>
+  </body>
+</html>

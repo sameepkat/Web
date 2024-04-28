@@ -26,3 +26,8 @@ Note: Keyboard keys don't work for now.
 
 ## Reference
 [Youtube](https://youtu.be/I5kj-YsmWjM)
+
+# 4. Rock Paper Scissor
+![Rock-Paper-Scissor](Screenshots/Rock-paper-scissor.png)
+
+[Preview](https://htmlpreview.github.io/?https://github.com/sameepkat/Web/blob/main/Rock-Papwe-Scissor/index.html)
