@@ -30,4 +30,4 @@ Note: Keyboard keys don't work for now.
 # 4. Rock Paper Scissor
 ![Rock-Paper-Scissor](Screenshots/Rock-paper-scissor.png)
 
-[Preview](https://htmlpreview.github.io/?https://github.com/sameepkat/Web/blob/main/Rock-Papwe-Scissor/index.html)
+[Preview](https://htmlpreview.github.io/?https://github.com/sameepkat/Web/blob/main/Rock-Paper-Scissor/index.html)
