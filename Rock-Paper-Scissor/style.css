@@ -6,12 +6,9 @@ body{
     flex-direction: column;
 }
 header{
-    /* position: absolute; */
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: white;
-    background-color: firebrick;
     text-align: right;
 }
 .player,.computer{
@@ -21,37 +18,29 @@ header{
     align-items: center;
 }
 .player{
-    background-color: hsl(0, 100%, 60%);
     height: 2vh;
 }
 .computer{
-    background-color: hsl(240, 100%, 60%);
     height: 2vh;
 }
 
 .container {
     display: block;
-    background-image: linear-gradient(180deg,red,blue);
     text-align: center;
-    color: white;
-}
-.tint{
-    background-color: rgba(0, 0, 0, 0.3);
 }
 button{
     /* width: 10vh; */
-    color:white;
-    background-color: brown;
     border: none;
     border-radius: 15px;
     padding: 1em
 }
 
 #playerTxt, #computerTxt{
-    border: 1px white solid;
     position: absolute;
-  color: white;
   font-size: 3rem;
   font-weight: bolder;
     cursor: pointer;
+}
+#whoWins{
+    position: relative;
 }

@@ -11,19 +11,20 @@
     <header>
       <span id="playerScore">Player: 0</span>
       <span id="computerScore">Computer: 0</span>
-      <span id="round">Round: 1</span>
+      <span id="draws">Draws: 0</span>
+      <span id="round"><strong>Round: 1</strong></span>
     </header>
-    <div class="player"><span id="playerTxt"></span></div>
+    <div class="player"><span id="playerTxt">🗞️</span></div>
     <div class="container">
-      <div class="tint">
-        <h3 id="display">Choose one!</h3>
+        <!-- <h2 id="whoWins">DIfference</h2> -->
+        <h3 id="displayPlayer">Player: </h3>
         <div>
-          <button onclick="getHumanChoice(this.textContent)" id="rock">Rock</button>
-          <button onclick="getHumanChoice(this.textContent)" id="paper">Paper</button>
-          <button onclick="getHumanChoice(this.textContent)" id="scissor">Scissors</button>
+          <button id="rock">Rock</button>
+          <button id="paper">Paper</button>
+          <button id="scissor">Scissors</button>
         </div>
-      </div>
+        <h3 id="displayComputer">Computer: </h3>
     </div>
-    <div class="computer"><span id="computerTxt"></span></div>
+    <div class="computer"><span id="computerTxt">✂️</span></div>
   </body>
 </html>
