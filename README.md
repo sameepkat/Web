@@ -21,8 +21,7 @@
 ![Calculator](Screenshots/Calculator.png)
 
 [Preview](https://htmlpreview.github.io/?https://github.com/sameepkat/Web/blob/main/Calculator/index.html)
-
-Note: Keyboard keys don't work for now.
+Note: Keyboard shortcuts are working now along with other added features.
 
 ## Reference
 [Youtube](https://youtu.be/I5kj-YsmWjM)
