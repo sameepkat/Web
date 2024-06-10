@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="calculator">
-        <input id="display" readonly>
-        <div id="keys">
-            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()" class="operator-btn">C</button>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="displayContainer"><span id="display"></span></div>
+      <div id="buttonsContainer">
+        <button id="clear">AC</button>
+        <button class="operator">/</button>
+        <button class="operator">*</button>
+        <button class="operator">-</button>
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="operator plus">+</button>
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button id="enter" class="enter">Enter</button>
+        <button class="num">0</button>
+        <button id="decimal">.</button>
+        <button id="del">Del</button>
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+  </body>
 </html>
